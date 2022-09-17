@@ -1,0 +1,23 @@
+{
+    "name": "midsmr/music",
+    "description": "Download Music",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Midsmr\\Music\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerry",
+            "email": "midsmr@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/var-dumper": "^6.1.3",
+        "metowolf/meting": "^1.5",
+        "yurunsoft/yurun-http": "^4.3"
+    }
+}
